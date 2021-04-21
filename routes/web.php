@@ -17,4 +17,4 @@ use Illuminate\Support\Facades\Route;
 //    return view('helloworld');
 //});
 
-Route::get('/', 'WelcomeController@show');
+Route::get('/', [\App\Http\Controllers\WelcomeController::class, 'show']);

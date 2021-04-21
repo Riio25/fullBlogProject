@@ -4,20 +4,22 @@
             <h1>{{ msg }}</h1>
             <p>What would you like to do?</p>
             <div id="menu-options">
-                <router-link to="/write">Write</router-link> |
-                <router-link to="/read">Read</router-link>
+                <a to="/write">Write</a> |
+                <a to="/read">Read</a>
             </div>
-            <router-view />
+<!--            <router-view />-->
         </div>
     </div>
 </template>
 
 <script>
 export default {
-    name: "Welcome",
-    props: {
-        msg: String,
-    },
+    computed: {},
+    data(){
+        return {
+            msg: "Welcome to Riio's Blog"
+        }
+    }
 };
 </script>
 <!-- Add "scoped" attribute to limit CSS to this component only -->
@@ -25,7 +27,7 @@ export default {
 .content {
     margin-top: 60px;
 }
-.menu-options {
+#menu-options {
     color: #42b983;
     margin: 20px;
 }

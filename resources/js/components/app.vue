@@ -1,19 +1,43 @@
 <template>
-    <div>
-        {{message}}
+    <div id="nav">
+        <a to="/" class="menu-options">Home</a>
+        <a to="/" class="menu-options">Login</a>
+        <a to="/register" class="menu-options">Register</a>
     </div>
+
+<!--    <router-view />-->
 </template>
-<script>
-    const default_layout = "default";
 
+<style>
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+}
 
-    export default {
-        computed: {},
-        data() {
-            return {
-                message:'Burp it up buddy',
-                link: 'Welcome Page'
-            }
-        }
-    };
-</script>
+#nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 10px;
+    width: 100%;
+}
+
+#nav a {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.menu-options {
+    float: right;
+    margin: 0 20px;
+    text-decoration: none;
+    padding: 10px;
+}
+a:hover {
+    text-decoration: underline;
+    background-color: lightgrey;
+}
+</style>
