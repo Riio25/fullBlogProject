@@ -11,7 +11,8 @@
         computed: {},
         data() {
             return {
-                message:'Burp it up buddy'
+                message:'Burp it up buddy',
+                link: 'Welcome Page'
             }
         }
     };
