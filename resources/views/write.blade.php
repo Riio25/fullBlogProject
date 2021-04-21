@@ -1,9 +1,10 @@
 @extends('layout/template')
 
 @section('content')
-<div id="app">
+
+<div id="write">
     <app></app>
-    <welcome></welcome>
+    <write></write>
 </div>
 
 @endsection

@@ -1,8 +1,8 @@
 <template>
     <div id="nav">
-        <a to="/" class="menu-options">Home</a>
-        <a to="/" class="menu-options">Login</a>
-        <a to="/register" class="menu-options">Register</a>
+        <a href="/" class="menu-options">Home</a>
+        <a href="/login" class="menu-options">Login</a>
+        <a href="/register" class="menu-options">Register</a>
     </div>
 
 <!--    <router-view />-->

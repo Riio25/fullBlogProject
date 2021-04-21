@@ -9,4 +9,12 @@ class WelcomeController extends Controller
     public function show(){
         return view('welcome');
     }
+
+    public function register(){
+
+    }
+
+    public function login(){
+
+    }
 }

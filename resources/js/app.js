@@ -22,7 +22,8 @@ window.Vue = require('vue').default;
 import Vue from 'vue';
 import App from './components/app.vue';
 import Welcome from './components/WelcomeComponent.vue';
-Vue.component('example-component', require('./components/ExampleComponent.vue'));
+import Write from './components/WriteComponent.vue';
+
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -37,3 +38,11 @@ const app = new Vue({
         Welcome
     }
 });
+
+const write = new Vue({
+    el: '#write',
+    components: {
+        App,
+        Write
+    }
+})

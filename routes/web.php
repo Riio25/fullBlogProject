@@ -18,3 +18,12 @@ use Illuminate\Support\Facades\Route;
 //});
 
 Route::get('/', [\App\Http\Controllers\WelcomeController::class, 'show']);
+
+Route::get('/register', );
+Route::get('/login',);
+
+Route::get('/read', [\App\Http\Controllers\BlogController::class, 'readIndex']);
+
+Route::get('/write', [\App\Http\Controllers\BlogController::class, 'writeIndex']);
+
+Route::post('/write/submit', [\App\Http\Controllers\BlogController::class, 'submitBlogPost']);

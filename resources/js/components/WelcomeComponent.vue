@@ -4,8 +4,8 @@
             <h1>{{ msg }}</h1>
             <p>What would you like to do?</p>
             <div id="menu-options">
-                <a to="/write">Write</a> |
-                <a to="/read">Read</a>
+                <a href="/write" data-ajax="false">Write</a> |
+                <a href="/read">Read</a>
             </div>
 <!--            <router-view />-->
         </div>
