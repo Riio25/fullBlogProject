@@ -1,7 +1,7 @@
 @extends('layout/template')
 
 @section('content')
-<div id="app">
+<div id="welcome">
     <app></app>
     <welcome></welcome>
 </div>

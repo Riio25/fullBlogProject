@@ -20,7 +20,6 @@ window.Vue = require('vue').default;
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
 import Vue from 'vue';
-import App from './components/app.vue';
 import Welcome from './components/WelcomeComponent.vue';
 import Write from './components/WriteComponent.vue';
 
@@ -30,11 +29,13 @@ import Write from './components/WriteComponent.vue';
  * the page. Then, you may begin adding components to this application
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
+Vue.component("app", require('./components/app.vue').default, {
+    name: "app"
+})
 
 const app = new Vue({
-    el: '#app',
+    el: '#welcome',
     components: {
-        App,
         Welcome
     }
 });
@@ -42,7 +43,9 @@ const app = new Vue({
 const write = new Vue({
     el: '#write',
     components: {
-        App,
         Write
     }
-})
+});
+
+
+
