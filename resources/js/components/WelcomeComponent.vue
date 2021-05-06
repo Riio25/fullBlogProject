@@ -26,6 +26,7 @@ export default {
 <style scoped>
 .content {
     margin-top: 60px;
+    text-align: center;
 }
 #menu-options {
     color: #42b983;

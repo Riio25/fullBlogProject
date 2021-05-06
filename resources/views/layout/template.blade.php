@@ -9,15 +9,15 @@
     </script>
     {{--    <link rel="stylesheet" href="{{ mix('css/app.css') }}" />--}}
 
-    <title>{{env('APP_NAME')}}</title>
+    <title>Riio's Blog</title>
 </head>
 <body>
 
-<div class="view">
-    @yield('content')
-</div>
+    <div class="view">
+        @yield('content')
+    </div>
 
-<script src="{{ mix('js/app.js') }}"></script>
+    <script src="{{ mix('js/app.js') }}"></script>
 
 </body>
 </html>

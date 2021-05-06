@@ -6469,7 +6469,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.content[data-v-1974e6b4] {\n    margin-top: 60px;\n}\n#menu-options[data-v-1974e6b4] {\n    color: #42b983;\n    margin: 20px;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.content[data-v-1974e6b4] {\n    margin-top: 60px;\n    text-align: center;\n}\n#menu-options[data-v-1974e6b4] {\n    color: #42b983;\n    margin: 20px;\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -6493,7 +6493,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n#write[data-v-602b9c09] {\n    font-family: Avenir, Helvetica, Arial, sans-serif;\n    -webkit-font-smoothing: antialiased;\n    -moz-osx-font-smoothing: grayscale;\n    text-align: center;\n    color: #2c3e50;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n#write[data-v-602b9c09] {\n    font-family: Avenir, Helvetica, Arial, sans-serif;\n    -webkit-font-smoothing: antialiased;\n    -moz-osx-font-smoothing: grayscale;\n    text-align: center;\n    color: #2c3e50;\n}\n.content[data-v-602b9c09]{\n        text-align: center;\n}\ninput[data-v-602b9c09] {\n        margin-bottom: 15px;\n        width: 200px;\n}\ntextarea[data-v-602b9c09] {\n        display: block;\n        margin: 0 auto;\n        resize: none;\n}\nbutton[data-v-602b9c09] {\n        margin-top: 15px;\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -6517,7 +6517,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n#app {\n    font-family: Avenir, Helvetica, Arial, sans-serif;\n    -webkit-font-smoothing: antialiased;\n    -moz-osx-font-smoothing: grayscale;\n    text-align: center;\n    color: #2c3e50;\n}\n#nav {\n    position: fixed;\n    top: 0;\n    left: 0;\n    padding-top: 10px;\n    width: 100%;\n}\n#nav a {\n    font-weight: bold;\n    color: #2c3e50;\n}\n.menu-options {\n    float: right;\n    margin: 0 20px;\n    text-decoration: none;\n    padding: 10px;\n}\na:hover {\n    text-decoration: underline;\n    background-color: lightgrey;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n#app {\r\n    font-family: Avenir, Helvetica, Arial, sans-serif;\r\n    -webkit-font-smoothing: antialiased;\r\n    -moz-osx-font-smoothing: grayscale;\r\n    text-align: center;\r\n    color: #2c3e50;\n}\n#nav {\r\n    position: fixed;\r\n    top: 0;\r\n    left: 0;\r\n    padding-top: 10px;\r\n    width: 100%;\n}\n#nav a {\r\n    font-weight: bold;\r\n    color: #2c3e50;\n}\n.menu-options {\r\n    float: right;\r\n    margin: 0 20px;\r\n    text-decoration: none;\r\n    padding: 10px;\n}\na:hover {\r\n    text-decoration: underline;\r\n    background-color: lightgrey;\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -37879,8 +37879,8 @@ var staticRenderFns = [
         attrs: {
           name: "content",
           id: "blog-content",
-          cols: "25",
-          rows: "10",
+          cols: "40",
+          rows: "8",
           placeholder: "Start Writing..."
         }
       }),

@@ -8,8 +8,8 @@
             <textarea
                 name="content"
                 id="blog-content"
-                cols="25"
-                rows="10"
+                cols="40"
+                rows="8"
                 placeholder="Start Writing..."
             ></textarea>
             <button type="submit">Submit</button>
@@ -36,4 +36,19 @@ export default {
     text-align: center;
     color: #2c3e50;
 }
+    .content{
+        text-align: center;
+    }
+    input {
+        margin-bottom: 15px;
+        width: 200px;
+    }
+    textarea {
+        display: block;
+        margin: 0 auto;
+        resize: none;
+    }
+    button {
+        margin-top: 15px;
+    }
 </style>

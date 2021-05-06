@@ -8,6 +8,7 @@ class BlogController extends Controller
 {
 
     public function readIndex(){
+        return view('read');
 
     }
 
